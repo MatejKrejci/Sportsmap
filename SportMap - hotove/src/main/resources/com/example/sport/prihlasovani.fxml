@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="308.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+         <children>
+            <ImageView fitHeight="505.0" fitWidth="308.0" pickOnBounds="true">
+               <image>
+                  <Image url="@obrazky/mapCheese.PNG" />
+               </image>
+            </ImageView>
+            <Button fx:id="toRegistrovatSe" layoutX="90.0" layoutY="412.0" mnemonicParsing="false" onAction="#toRegistrovatSe" opacity="0.7" prefHeight="36.0" prefWidth="136.0" style="-fx-background-color: #064177;" text="Registrovat se" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <PasswordField fx:id="hesloPrih" layoutX="58.0" layoutY="238.0" opacity="0.7" prefHeight="25.0" prefWidth="195.0" promptText="Heslo" style="-fx-background-color: #064177;-fx-text-fill: white;" />
+            <TextField fx:id="uzivatelskeJmeno" layoutX="58.0" layoutY="178.0" opacity="0.7" prefHeight="25.0" prefWidth="195.0" promptText="Uživalské jméno" style="-fx-background-color: #064177;-fx-text-fill: white;" />
+            <Button fx:id="prihlasitSe" layoutX="90.0" layoutY="326.0" mnemonicParsing="false" onAction="#prihlasitSe" opacity="0.7" prefHeight="36.0" prefWidth="136.0" style="-fx-background-color: #064177;" text="Přihlásit se" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" layoutX="81.0" layoutY="153.0" style="-fx-font-weight: bold;" text="Uživatelské jméno:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="75.0" layoutY="215.0" prefHeight="27.0" prefWidth="159.0" style="-fx-font-weight: bold;" text="Heslo:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
